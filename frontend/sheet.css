@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  background: #f7f5ef;
+  color: #1c2430;
+  font: 14px/1.45 "SimSun", "Microsoft YaHei", serif;
+}
+.paper {
+  width: 920px;
+  margin: 24px auto;
+  background: white;
+  padding: 28px 32px 36px;
+  border: 1px solid #d9d3c5;
+}
+h1 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  margin: 0 0 14px;
+}
+table { width: 100%; border-collapse: collapse; }
+th, td { border: 1px solid #243424; padding: 6px 8px; vertical-align: middle; }
+th { background: #f3f6f1; font-weight: 500; text-align: center; }
+td.num, th.num { width: 48px; text-align: center; }
+td.money, th.money { text-align: right; white-space: nowrap; }
+td.center { text-align: center; }
+td.label { white-space: nowrap; width: 8em; text-align: center; }
+table + table { margin-top: 12px; }
+.signoff { margin-top: 18px; display: flex; justify-content: space-between; gap: 12px; }
+.signoff span { flex: 1; }

@@ -1,0 +1,7 @@
+# 企业内部数据仓。公开仓库只提交 data/repo.sample。
+data/repo.sstd/
+
+# 真实单据、本地导出、内部说明
+data/xlsx-pdf/
+out/
+docs/reference.md

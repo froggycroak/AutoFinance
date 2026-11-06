@@ -1,0 +1,6 @@
+{
+  // [[链接]] 由 .vscode/af-wikilinks 识别：文件名或 frontmatter 的 id 都能打开。
+  // 关掉预览扩展自带的 wiki 链接，避免它按当前文件夹去打开编号链接。
+  "markdown-preview-enhanced.wikiLinkResolution": "shortest",
+  "markdown-preview-enhanced.enableWikiLinkSyntax": false
+}

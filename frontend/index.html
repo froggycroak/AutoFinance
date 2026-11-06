@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>财务报销助手</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/app.css">
+</head>
+<body>
+<header>
+  <div class="topbar">
+    <a class="brand" href="/">
+      <svg class="logo" viewBox="0 0 64 64" aria-hidden="true">
+        <circle cx="32" cy="32" r="32" fill="#000"/>
+        <rect x="20" y="16" width="24" height="32" rx="2" fill="none" stroke="#fff" stroke-width="2"/>
+        <path d="M26 26h12M26 32h12M26 38h8" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <span>
+        <span class="brand-title">财务报销助手</span>
+        <span class="brand-sub">Finance Reimbursement Assistant</span>
+      </span>
+    </a>
+    <nav id="nav"></nav>
+  </div>
+</header>
+<main id="main"></main>
+<dialog class="leave" id="leave-dialog">
+  <p>有未保存的修改，要先保存吗？</p>
+  <p class="actions">
+    <button type="button" class="primary" id="leave-save">保存</button>
+    <button type="button" id="leave-discard">不保存</button>
+    <button type="button" id="leave-cancel">取消</button>
+  </p>
+</dialog>
+<script type="module" src="/assets/app.js"></script>
+</body>
+</html>

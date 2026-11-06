@@ -1,0 +1,22 @@
+{
+  "name": "af-wikilinks",
+  "displayName": "AF Wiki Links",
+  "description": "把 Markdown / YAML 里的 [[链接]] 当成笔记链接。文件名和 frontmatter 的 id 都能打开，包括 B- 字段引号里的链接。",
+  "version": "0.1.0",
+  "publisher": "autofinance",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": ["onLanguage:markdown", "onLanguage:yaml"],
+  "main": "./extension.js",
+  "contributes": {
+    "grammars": [
+      {
+        "scopeName": "autofinance.wikilink",
+        "path": "./syntaxes/wikilink.tmLanguage.json",
+        "injectTo": ["text.html.markdown", "source.yaml"]
+      }
+    ]
+  }
+}
